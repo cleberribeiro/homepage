@@ -1,0 +1,33 @@
+/*HEX #1c496d <-*/
+html, body {
+    background: rgba(28, 73, 109, 1);
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/logos/logo3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+  display: flex;
+  align-items: flex-end;
+  height: 100vh;
+}
+
+.content .footer {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  height: 100px;
+}
+
+.content .footer .social {
+  margin: 4px;
+}
+
+.content .footer .social img {
+  width: 60px;
+  height: 60px;
+}
