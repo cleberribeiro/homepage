@@ -1,123 +1,192 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
 ---
 
-<Layout title="Welcome to Astro.">
-	<main>
-		<svg
-			class="astro-a"
-			width="495"
-			height="623"
-			viewBox="0 0 495 623"
-			fill="none"
-			xmlns="http://www.w3.org/2000/svg"
-			aria-hidden="true"
-		>
-			<path
-				fill-rule="evenodd"
-				clip-rule="evenodd"
-				d="M167.19 364.254C83.4786 364.254 0 404.819 0 404.819C0 404.819 141.781 19.4876 142.087 18.7291C146.434 7.33701 153.027 0 162.289 0H332.441C341.703 0 348.574 7.33701 352.643 18.7291C352.92 19.5022 494.716 404.819 494.716 404.819C494.716 404.819 426.67 364.254 327.525 364.254L264.41 169.408C262.047 159.985 255.147 153.581 247.358 153.581C239.569 153.581 232.669 159.985 230.306 169.408L167.19 364.254ZM160.869 530.172C160.877 530.18 160.885 530.187 160.894 530.195L160.867 530.181C160.868 530.178 160.868 530.175 160.869 530.172ZM136.218 411.348C124.476 450.467 132.698 504.458 160.869 530.172C160.997 529.696 161.125 529.242 161.248 528.804C161.502 527.907 161.737 527.073 161.917 526.233C165.446 509.895 178.754 499.52 195.577 500.01C211.969 500.487 220.67 508.765 223.202 527.254C224.141 534.12 224.23 541.131 224.319 548.105C224.328 548.834 224.337 549.563 224.347 550.291C224.563 566.098 228.657 580.707 237.264 593.914C245.413 606.426 256.108 615.943 270.749 622.478C270.593 621.952 270.463 621.508 270.35 621.126C270.045 620.086 269.872 619.499 269.685 618.911C258.909 585.935 266.668 563.266 295.344 543.933C298.254 541.971 301.187 540.041 304.12 538.112C310.591 533.854 317.059 529.599 323.279 525.007C345.88 508.329 360.09 486.327 363.431 457.844C364.805 446.148 363.781 434.657 359.848 423.275C358.176 424.287 356.587 425.295 355.042 426.275C351.744 428.366 348.647 430.33 345.382 431.934C303.466 452.507 259.152 455.053 214.03 448.245C184.802 443.834 156.584 436.019 136.218 411.348Z"
-				fill="url(#paint0_linear_1805_24383)"></path>
-			<defs>
-				<linearGradient
-					id="paint0_linear_1805_24383"
-					x1="247.358"
-					y1="0"
-					x2="247.358"
-					y2="622.479"
-					gradientUnits="userSpaceOnUse"
-				>
-					<stop stop-opacity="0.9"></stop>
-					<stop offset="1" stop-opacity="0.2"></stop>
-				</linearGradient>
-			</defs>
-		</svg>
-		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
-		<p class="instructions">
-			To get started, open the directory <code>src/pages</code> in your project.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-		</p>
-		<ul role="list" class="link-card-grid">
-			<Card
-				href="https://docs.astro.build/"
-				title="Documentation"
-				body="Learn how Astro works and explore the official API docs."
-			/>
-			<Card
-				href="https://astro.build/integrations/"
-				title="Integrations"
-				body="Supercharge your project with new frameworks and libraries."
-			/>
-			<Card
-				href="https://astro.build/themes/"
-				title="Themes"
-				body="Explore a galaxy of community-built starter themes."
-			/>
-			<Card
-				href="https://astro.build/chat/"
-				title="Community"
-				body="Come say hi to our amazing Discord community. ❤️"
-			/>
-		</ul>
-	</main>
+<Layout title="Welcome to Cleber Ribeiro">
+  <main>
+    <div class="header">
+      <div class="presentation">
+        <div class="typewriter">
+          <h4>Wellcome!!!</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="logo">
+        <div class="wrapper">
+          <span class="title">Cleber Ribeiro</span>
+          <span class="subtitle">Software Engineer</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="copy">
+        <span> Copyright © {new Date().getFullYear()} | All rights reserved.</span>
+      </div>
+      <div class="icons">
+        <div class="github">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.8269 0C5.29687 0 0 5.29687 0 11.8269C0 18.357 5.29687 23.6538 11.8269 23.6538C18.357 23.6538 23.6538 18.357 23.6538 11.8269C23.6538 5.29687 18.357 0 11.8269 0ZM11.8269 1.84615C17.3293 1.84615 21.8077 6.32451 21.8077 11.8269C21.8077 12.2596 21.7752 12.6779 21.7211 13.0961C21.5373 13.0493 20.9603 12.9014 20.3365 12.8942C19.7776 12.887 19.107 12.9808 18.75 13.0385C18.8437 12.6562 18.9231 12.2488 18.9231 11.8269C18.9231 10.774 18.5264 9.75 17.8269 8.88461C18.0865 8.06971 18.4471 6.21635 17.7404 5.50961C16.0096 5.50961 15.036 6.60938 14.8558 6.83654C14.0625 6.54807 13.2043 6.40384 12.2885 6.40384C11.3942 6.40384 10.5288 6.53366 9.75 6.80769C9.50841 6.51562 8.55289 5.50961 6.89423 5.50961C6.20192 6.20192 6.54807 7.98677 6.80769 8.82692C6.07572 9.70673 5.65384 10.7488 5.65384 11.8269C5.65384 12.2236 5.6863 12.6202 5.76923 12.9808C5.46635 12.9555 4.23677 12.8654 3.75 12.8654C3.26322 12.8654 2.46274 12.9699 1.93269 13.0961C1.87861 12.6779 1.84615 12.2596 1.84615 11.8269C1.84615 6.32451 6.32451 1.84615 11.8269 1.84615ZM3.75 13.0961C4.22956 13.0961 5.70793 13.2296 5.85577 13.2404C5.881 13.3269 5.90985 13.4135 5.94231 13.5C5.45553 13.4603 4.41346 13.3918 3.75 13.4711C2.9387 13.5685 2.34015 13.8894 2.10577 14.0192C2.05529 13.7921 1.99759 13.5577 1.96154 13.3269C2.46995 13.2079 3.29928 13.0961 3.75 13.0961ZM20.3365 13.125C20.9423 13.1322 21.5373 13.262 21.6923 13.2981C21.6779 13.4026 21.6526 13.5108 21.6346 13.6154C21.5553 13.5937 20.8341 13.3738 20.0769 13.3558C19.7055 13.3449 19.1178 13.4062 18.6635 13.4423C18.6851 13.3846 18.7031 13.3269 18.7211 13.2692C19.0348 13.226 19.7812 13.1178 20.3365 13.125ZM20.0481 13.5865C20.7836 13.6046 21.5625 13.8353 21.6058 13.8461C20.9243 17.1598 18.5986 19.857 15.5192 21.0865V19.5C15.5192 18.5012 14.9243 17.2031 14.0769 16.5577C16.4639 16.2151 17.9495 15.1587 18.5769 13.6731C19.006 13.637 19.6623 13.5757 20.0481 13.5865ZM4.5 13.6731C5.15985 13.6767 5.7512 13.7091 6.02884 13.7308C6.67067 15.1839 8.14543 16.2187 10.5 16.5577C10.2332 16.7632 9.98437 17.03 9.77884 17.3365C9.77163 17.3474 9.75721 17.3546 9.75 17.3654C9.28846 17.9207 8.42307 17.8846 7.61538 17.8846C6.78966 17.8846 6.29567 17.2248 5.85577 16.6442C5.41226 16.0673 4.83533 16.0168 4.52884 15.9808C4.22236 15.9483 4.13943 16.1034 4.29808 16.2115C5.19591 16.8425 5.54928 17.6142 5.91346 18.2885C6.24159 18.8942 6.91586 19.2115 7.67307 19.2115H9.08654C9.07572 19.3053 9.05769 19.4098 9.05769 19.5V21.4038C5.65745 20.4231 3.02524 17.6971 2.16346 14.25C2.34375 14.149 2.97836 13.7957 3.77884 13.7019C3.96995 13.6803 4.22596 13.6731 4.5 13.6731ZM12.2885 19.2115C12.5445 19.2115 12.75 19.4171 12.75 19.6731V21.75C12.4435 21.7788 12.1406 21.8077 11.8269 21.8077V19.6731C11.8269 19.4171 12.0325 19.2115 12.2885 19.2115ZM10.4423 19.7596C10.6983 19.7596 10.9038 19.9651 10.9038 20.2211V21.75C10.5974 21.7211 10.28 21.6887 9.98077 21.6346V20.2211C9.98077 19.9651 10.1863 19.7596 10.4423 19.7596ZM14.1346 19.7596C14.3906 19.7596 14.5961 19.9651 14.5961 20.2211V21.4038C14.2933 21.4904 13.9868 21.5769 13.6731 21.6346V20.2211C13.6731 19.9651 13.8786 19.7596 14.1346 19.7596Z"
+              fill="#E36840"></path>
+          </svg>
+        </div>
+        <div class="linkedin">
+          <svg
+            width="22"
+            height="22"
+            viewBox="0 0 22 22"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2.61905 0C1.17882 0 0 1.17882 0 2.61905V19.381C0 20.8212 1.17882 22 2.61905 22H19.381C20.8212 22 22 20.8212 22 19.381V2.61905C22 1.17882 20.8212 0 19.381 0H2.61905ZM2.61905 1.04762H19.381C20.2549 1.04762 20.9524 1.74508 20.9524 2.61905V19.381C20.9524 20.2549 20.2549 20.9524 19.381 20.9524H2.61905C1.74508 20.9524 1.04762 20.2549 1.04762 19.381V2.61905C1.04762 1.74508 1.74508 1.04762 2.61905 1.04762ZM5.23809 3.67281C4.66441 3.67281 4.14816 3.84428 3.7659 4.16593C3.38364 4.48757 3.149 4.96808 3.149 5.48261C3.149 6.46066 3.99734 7.22313 5.07645 7.29855L5.0785 7.29957C5.12992 7.3171 5.18378 7.32642 5.2381 7.32719C6.42872 7.32719 7.3272 6.49318 7.3272 5.48261C7.32711 5.4734 7.32676 5.46418 7.32618 5.45498C7.27288 4.45962 6.38547 3.67281 5.23809 3.67281ZM5.23809 4.70815C5.96736 4.70815 6.25532 5.03383 6.28674 5.49591C6.28037 5.94442 6.0029 6.29185 5.23809 6.29185C4.5124 6.29185 4.18434 5.92022 4.18434 5.48261C4.18434 5.26381 4.26418 5.09892 4.43192 4.95778C4.59966 4.81664 4.86892 4.70815 5.23809 4.70815ZM3.66667 7.85714C3.37739 7.85717 3.14289 8.09167 3.14286 8.38095V18.3333C3.14289 18.6226 3.37739 18.8571 3.66667 18.8571H6.80952C7.0988 18.8571 7.3333 18.6226 7.33333 18.3333V8.38095C7.3333 8.09167 7.0988 7.85717 6.80952 7.85714H3.66667ZM8.38095 7.85714C8.09167 7.85717 7.85717 8.09167 7.85714 8.38095V18.3333C7.85717 18.6226 8.09167 18.8571 8.38095 18.8571H11.5238C11.8131 18.8571 12.0476 18.6226 12.0476 18.3333V13.0952C12.0476 12.6606 12.1662 12.2283 12.375 11.9453C12.5838 11.6623 12.8472 11.4924 13.3479 11.5013C13.8643 11.5102 14.1376 11.6871 14.3444 11.9648C14.5512 12.2424 14.6667 12.6587 14.6667 13.0952V18.3333C14.6667 18.6226 14.9012 18.8571 15.1905 18.8571H18.3333C18.6226 18.8571 18.8571 18.6226 18.8571 18.3333V12.7085C18.8571 11.1572 18.3976 9.92846 17.61 9.0971C16.8224 8.26574 15.7269 7.85714 14.5684 7.85714C13.4674 7.85714 12.6295 8.22637 12.0476 8.60296V8.38095C12.0476 8.09167 11.8131 7.85717 11.5238 7.85714H8.38095ZM4.19048 8.90476H6.28571V17.8095H4.19048V8.90476ZM8.90476 8.90476H11V9.72219C11.0001 9.94743 11.1441 10.1474 11.3577 10.2189C11.5713 10.2903 11.8067 10.2172 11.9422 10.0373C11.9422 10.0373 12.7648 8.90476 14.5684 8.90476C15.4869 8.90476 16.2744 9.20992 16.8499 9.81734C17.4253 10.4248 17.8095 11.3605 17.8095 12.7085V17.8095H15.7143V13.0952C15.7143 12.4841 15.5679 11.8523 15.1854 11.3386C14.8029 10.825 14.1595 10.4673 13.3663 10.4537C12.5691 10.4395 11.9154 10.8046 11.532 11.3243C11.1486 11.844 11 12.4822 11 13.0952V17.8095H8.90476L8.90476 8.90476Z"
+              fill="#E36840"></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </main>
 </Layout>
 
 <style>
-	main {
-		margin: auto;
-		padding: 1rem;
-		width: 800px;
-		max-width: calc(100% - 2rem);
-		color: white;
-		font-size: 20px;
-		line-height: 1.6;
+  @font-face {
+    font-family: IBMPlexMono-Bold;
+    src: url(/fonts/IBM_Plex_Mono/IBMPlexMono-Bold.ttf);
+  }
+  @font-face {
+    font-family: IBMPlexMono-LightItalic;
+    src: url(/fonts/IBM_Plex_Mono/IBMPlexMono-LightItalic.ttf);
+  }
+  @font-face {
+    font-family: IBMPlexMono-Light;
+    src: url(/fonts/IBM_Plex_Mono/IBMPlexMono-Light.ttf);
+  }
+  @font-face {
+    font-family: IBMPlexMono-Medium;
+    src: url(/fonts/IBM_Plex_Mono/IBMPlexMono-Medium.ttf);
+  }
+
+  main {
+    margin: auto;
+    padding: 1rem;
+    width: 960px;
+    max-width: calc(100% - 2rem);
+    color: #357e6d;
+    font-size: 20px;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+  }
+
+  .logo {
+    width: 500px;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .logo .wrapper .title {
+    font-family: IBMPlexMono-Bold;
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 1;
+    text-align: right;
+  }
+
+  .logo .wrapper .subtitle {
+    font-family: IBMPlexMono-LightItalic;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1;
+    text-align: right;
+  }
+
+  .header {
+    font-family: IBMPlexMono-Medium;
+    border-bottom: solid 1px #e36840;
+    height: 60px;
+  }
+  .footer {
+    margin-top: auto;
+    font-family: IBMPlexMono-Light;
+    font-size: 0.9rem;
+    border-top: solid 1px #e36840;
+    height: 24px;
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    width: 960px;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .github {
+    margin: 0 0.4rem 0 0.4rem;
+  }
+
+  .linkedin {
+    margin: 0 0.4rem 0 0;
+  }
+
+	.presentation {
+		width: 180px;
 	}
-	.astro-a {
-		position: absolute;
-		top: -32px;
-		left: 50%;
-		transform: translatex(-50%);
-		width: 220px;
-		height: auto;
-		z-index: -1;
-	}
-	h1 {
-		font-size: 4rem;
-		font-weight: 700;
-		line-height: 1;
-		text-align: center;
-		margin-bottom: 1em;
-	}
-	.text-gradient {
-		background-image: var(--accent-gradient);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-size: 400%;
-		background-position: 0%;
-	}
-	.instructions {
-		margin-bottom: 2rem;
-		border: 1px solid rgba(var(--accent-light), 25%);
-		background: linear-gradient(rgba(var(--accent-dark), 66%), rgba(var(--accent-dark), 33%));
-		padding: 1.5rem;
-		border-radius: 8px;
-	}
-	.instructions code {
-		font-size: 0.8em;
-		font-weight: bold;
-		background: rgba(var(--accent-light), 12%);
-		color: rgb(var(--accent-light));
-		border-radius: 4px;
-		padding: 0.3em 0.4em;
-	}
-	.instructions strong {
-		color: rgb(var(--accent-light));
-	}
-	.link-card-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-		gap: 2rem;
-		padding: 0;
-	}
+  .typewriter h4 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 0.15em solid #e36840; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.15em; /* Adjust as needed */
+    animation:
+      typing 1.5s steps(40, end),
+      blink-caret 0.75s step-end infinite;
+  }
+
+  /* The typing effect */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #e36840;
+    }
+  }
 </style>
